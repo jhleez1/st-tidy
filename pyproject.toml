@@ -9,7 +9,7 @@ description = "Formatter and linter for IEC 61131-3 Structured Text (B&R, CODESY
 readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "Jihan Lee" }]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 classifiers = [
   "Programming Language :: Python :: 3",
   "Topic :: Software Development :: Quality Assurance",

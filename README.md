@@ -24,7 +24,7 @@ examples\messy.st:19: W102 statement is missing ';'
 
 ## Install
 
-Needs Python 3.9 or newer. There are no dependencies.
+Needs Python 3.10 or newer. There are no dependencies.
 
 ```
 pip install git+https://github.com/jhleez1/st-tidy
