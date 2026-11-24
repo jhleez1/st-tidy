@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "st-tidy"
+version = "0.1.0"
+description = "Formatter and linter for IEC 61131-3 Structured Text (B&R, CODESYS, TwinCAT)"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Jihan Lee" }]
+requires-python = ">=3.9"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Quality Assurance",
+  "Intended Audience :: Manufacturing",
+]
+
+[project.scripts]
+st-tidy = "st_tidy.cli:main"
+
+[tool.setuptools]
+packages = ["st_tidy"]
