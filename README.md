@@ -92,4 +92,4 @@ python -m unittest discover -s tests
 
 ---
 
-Built by [Jihan Lee](https://github.com/jhleez1), with help from Claude (AI).
+Built by [Jihan Lee](https://github.com/jhleez1)
